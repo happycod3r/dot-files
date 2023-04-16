@@ -114,8 +114,8 @@ fi
 
 #             ********** Custom commands **********
 #Custom $PATH directories:
-export PATH="/mnt/chromeos/removable/X/#/projects/bash/xbin:$PATH"
-export PATH="/mnt/chromeos/removable/X/#/projects/py/shell_scripts:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/projects/bash/xbin:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/projects/py/shell_scripts:$PATH"
 export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
 export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
 export PATH="/home/happycod3r/node_modules:$PATH"

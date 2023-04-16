@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -8,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 #robbyrussell, rkj-repos, agnoster, fino-time, steeef, bira, gnzh, jonathan
 
 # Set list of themes to pick from when loading at random
@@ -24,9 +31,9 @@ ZSH_THEME="bira"
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
-zstyle ':omz:update' mode auto      # update automatically without asking
+# Uncomment one of the following lines to change the auto-update behavior 
+zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -71,11 +78,33 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git github node ng react-native python vscode sublime debian github colorize copypath catimg)
+plugins=(git github node ng react-native python vscode sublime debian github colorize copypath)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export PATH="/usr/local/bin:$PATH"
+export PATH="/user/local/sbin:$PATH"
+export PATH="/usr/local/games:$PATH"
+export PATH="/usr/bin:$PATH"
+export PATH="/usr/sbin:$PATH"
+export PATH="/bin:$PATH"
+export PATH="/sbin:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/projects/bash/xbin:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/projects/py/shell_scripts:$PATH"
+export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
+export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
+export PATH="/home/happycod3r/node_modules:$PATH"
+
+
+#/usr/local/sbin:
+#/usr/local/bin:
+#/usr/local/games:
+#/usr/sbin:
+#/usr/bin:
+#/usr/games:
+#/sbin:
+#/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -100,3 +129,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

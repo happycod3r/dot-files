@@ -91,11 +91,14 @@ export PATH="/usr/sbin:$PATH"
 export PATH="/bin:$PATH"
 export PATH="/sbin:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/bash/xbin:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/projects/bash/scripts:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/py/shell_scripts:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/projects/java:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/java/java-jdk-x86-64/bin:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/java/java-jre.1.8.0x86-64/bin:$PATH"
 export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
 export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
 export PATH="/home/happycod3r/node_modules:$PATH"
-
 
 #/usr/local/sbin:
 #/usr/local/bin:
@@ -132,3 +135,6 @@ export PATH="/home/happycod3r/node_modules:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#------------
+task ls

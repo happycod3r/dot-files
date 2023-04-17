@@ -94,20 +94,11 @@ export PATH="/mnt/chromeos/removable/X/dev/projects/bash/xbin:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/bash/scripts:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/py/shell_scripts:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/java:$PATH"
-export PATH="/mnt/chromeos/removable/X/dev/java/java-jdk-x86-64/bin:$PATH"
+export PATH="/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/bin:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/java/java-jre.1.8.0x86-64/bin:$PATH"
 export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
 export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
 export PATH="/home/happycod3r/node_modules:$PATH"
-
-#/usr/local/sbin:
-#/usr/local/bin:
-#/usr/local/games:
-#/usr/sbin:
-#/usr/bin:
-#/usr/games:
-#/sbin:
-#/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

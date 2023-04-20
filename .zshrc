@@ -146,14 +146,20 @@ fi
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-if [ -f ~/.xconfig/.x_aliases ]; then
-    . ~/.xconfig/.x_aliases
+if [ -f ~/.xconfig/.xaliases ]; then
+    . ~/.xconfig/.xaliases
 fi
-if [ -f ~/.xconfig/.x_jump_points ]; then
-    . ~/.xconfig/.x_jump_points
+if [ -f ~/.xconfig/.xjump_points ]; then
+    . ~/.xconfig/.xjump_points
 fi
-if [ -f ~/.xconfig/.x_path ]; then
-    . ~/.xconfig/.x_path
+if [ -f ~/.xconfig/.xpath ]; then
+    . ~/.xconfig/.xpath
+fi
+if [ -f ~/.xconfig/.xkey_binds ]; then
+    . ~/.xconfig/.xkey_binds
+fi
+if [ -f ~/.xconfig/.xfunctions ]; then
+    . ~/.xconfig//xfunctions
 fi
 #//////
 

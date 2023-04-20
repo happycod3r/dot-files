@@ -4,14 +4,17 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
 #//////
 #////// ~ FILE ALIASES
 alias bashrc='cd ~/ && nano .bashrc'
 alias zshrc='cd ~/ && nano .zshrc'
 alias p10kzsh='cd ~/ && nano .p10k.zsh'
-alias xa='cd ~/.xconfig/ && nano .x_aliases'
-alias xjp='cd ~/.xconfig/ && nano .x_jump_points'
-alias xp='cd ~/.xconfig/ && nano .x_path'
+alias xa='cd ~/.xconfig/ && nano .xaliases'
+alias xjp='cd ~/.xconfig/ && nano .xjump_points'
+alias xp='cd ~/.xconfig/ && nano .xpath'
+alias xkb='cd ~/.xconfig/ && nano .xkey_binds'
+alias xf='cd ~/.xconfig/ && nano .xfunctions'
 #//////
 #////// ~ HOME/
 alias home='cd /home/happycod3r && ls -a'
@@ -41,9 +44,12 @@ alias py_projects='cd /mnt/chromeos/removable/X/dev/projects/py && ls -a'
 alias projects='cd /mnt/chromeos/removable/X/dev/projects/py/shell_scripts && ls -a'
 alias todo='cd /mnt/chromeos/removable/X/dev/projects/@todo && ls -a'
 alias www='cd /mnt/chromeos/removable/X/dev/projects/www && ls -a'
-
+#//////
+#////// ~ JAVA/
 alias jdk='cd /mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/bin && ls -a'
 alias jre='cd /mnt/chromeos/removable/X/dev/java/java-jre.1.8.0x86-64/bin && ls -a'
+#//////
+#////// ~ LINUX/
 alias linux='cd /mnt/chromeos/removable/X/Linux && ls -a'
 #//////
 #////// ~ Y/

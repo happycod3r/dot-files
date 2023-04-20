@@ -96,6 +96,7 @@ export PATH="/mnt/chromeos/removable/X/dev/projects/py/shell_scripts:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/java:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/bin:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/java/java-jre.1.8.0x86-64/bin:$PATH"
+export PATH="/mnt/chromeos/removable/DEV:$PATH"
 export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
 export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
 export PATH="/home/happycod3r/node_modules:$PATH"
@@ -119,10 +120,15 @@ export PATH="/home/happycod3r/node_modules:$PATH"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#Custom aliases:
+137 # Move to the parent folder.
+138 alias ..='cd ..;pwd'
+139 # Move up two parent folders.
+140 alias ...='cd ../..;pwd'
+141 # Move up three parent folders.
+142 alias ....='cd ../../..;pwd'
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

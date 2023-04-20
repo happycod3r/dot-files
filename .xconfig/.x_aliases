@@ -1,0 +1,26 @@
+
+#////////// COMMAND ALIASES /////
+alias say='echo'
+alias lsd='ls -lh'
+alias lsa='ls -a'
+alias l='ls -alh' 
+alias ll='ls -alFh --color=always'
+
+alias clearl='clear && ls -a'
+
+#////////// MULTI COMMAND ALIASES /////
+#//// FILE OPS //
+#Makes a file executable.
+alias mkx='sudo chmod +x'
+#Deletes the specified file or folder.
+alias ether='sudo rm -r'
+#Opens nano with line numbers.
+alias nanol='nano -l'
+
+#////////// PLUGINS /////
+#Lists all installed zsh plugins.
+alias zshplugs='ls ~/.oh-my-zsh/plugins'
+#Lists all globally installed node moduals.
+alias npmplugs="npm -g ls"
+#Lists all installed packages.
+alias pckgs='apt list --installed'

@@ -1,10 +1,21 @@
+#////////////////// ~ GLOBAL PATH VALUES 
+#//////
 export PATH="/usr/local/bin:$PATH"
-export PATH="/user/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/games:$PATH"
 export PATH="/usr/bin:$PATH"
 export PATH="/usr/sbin:$PATH"
 export PATH="/bin:$PATH"
 export PATH="/sbin:$PATH"
+#//////
+#//////
+export PATH="/mnt/chromeos/MyFiles:$PATH"
+export PATH="/mnt/chromeos/GoogleDrive:$PATH"
+export PATH="/home/happycod3r/node_modules:$PATH"
+export PATH="/home/happycod3r/.xconfig:$PATH"
+#//////
+#//////
+export PATH="/mnt/chromeos/removable/X:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/bash/xbin:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/bash/scripts:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/projects/py/shell_scripts:$PATH"
@@ -12,7 +23,4 @@ export PATH="/mnt/chromeos/removable/X/dev/projects/java:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/bin:$PATH"
 export PATH="/mnt/chromeos/removable/X/dev/java/java-jre.1.8.0x86-64/bin:$PATH"
 export PATH="/mnt/chromeos/removable/Y:$PATH"
-export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
-export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
-export PATH="/home/happycod3r/node_modules:$PATH"
-export PATH="/home/happycod3r/.xconfig:$PATH"
+#//////

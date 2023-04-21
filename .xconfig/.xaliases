@@ -1,5 +1,4 @@
-
-#////////// ~ COMMAND/ARG ALIASES //////
+#////// ~ COMMAND/ARG ALIASES //////
 alias say='echo'
 alias lsd='ls -lh'
 alias lsa='ls -a'
@@ -8,13 +7,13 @@ alias ll='ls -alFh --color=always'
 alias clearl='clear && ls -a'
 #//////
 
-#//// FILE OPS //
+#////// FILE OPS //////
 alias mkx='sudo chmod +x'
 alias ether='sudo rm -r'
 alias nanol='nano -l' 
 #//////
 
-#////////// PLUGINS /////
+#////////// PLUGINS //////
 alias zshplugs='ls ~/.oh-my-zsh/plugins'
 alias npmplugs="npm -g ls"
 alias pckgs='apt list --installed'

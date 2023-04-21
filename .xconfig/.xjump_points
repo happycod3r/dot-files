@@ -6,6 +6,7 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ......='cd ../../../../../'
 #//////
+
 #////// ~ FILE ALIASES
 alias bashrc='cd ~/ && nano .bashrc'
 alias zshrc='cd ~/ && nano .zshrc'
@@ -17,6 +18,7 @@ alias xkb='cd ~/.xconfig/ && nano .xkey_binds'
 alias xf='cd ~/.xconfig/ && nano .xfunctions'
 alias xpl='cd ~/.xconfig/ && nano .xplugins'
 #//////
+
 #////// ~ HOME/
 alias home='cd /home/happycod3r && ls -a'
 alias node_modules='cd /home/happycod3r/node_modules && ls -a'
@@ -25,13 +27,17 @@ alias desktop='cd /home/happycod3r/desktop && ls -a'
 alias .xconfig='cd /home/happycod3r/.xconfig && ls -a'
 alias .config='cd /home/happycod3r/.config && ls -a'
 #//////
+
 #////// ~ MYFILES/
 alias myfiles='cd /mnt/chromeos/MyFiles && ls -a'
 alias downloads='cd /mnt/chromeos/MyFiles/Downloads && ls -a'
+#//////
+
 #////// ~ MYDRIVE/
 alias drive='cd /mnt/chromeos/GoogleDrive/MyDrive && ls -a'
 alias assets='cd /mnt/chromeos/GoogleDrive/MyDrive/assets && ls -a'
 #//////
+
 #////// ~ X/
 alias x='cd /mnt/chromeos/removable/X && ls -a'
 alias dev='cd /mnt/chromeos/removable/X/dev && ls -a'
@@ -46,13 +52,16 @@ alias projects='cd /mnt/chromeos/removable/X/dev/projects/py/shell_scripts && ls
 alias todo='cd /mnt/chromeos/removable/X/dev/projects/@todo && ls -a'
 alias www='cd /mnt/chromeos/removable/X/dev/projects/www && ls -a'
 #//////
+
 #////// ~ JAVA/
 alias jdk='cd /mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/bin && ls -a'
 alias jre='cd /mnt/chromeos/removable/X/dev/java/java-jre.1.8.0x86-64/bin && ls -a'
 #//////
+
 #////// ~ LINUX/
 alias linux='cd /mnt/chromeos/removable/X/Linux && ls -a'
 #//////
+
 #////// ~ Y/
 alias y='cd /mnt/chromeos/removable/Y && ls -a'
 #//////

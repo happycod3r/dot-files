@@ -15,6 +15,7 @@ alias xjp='cd ~/.xconfig/ && nano .xjump_points'
 alias xp='cd ~/.xconfig/ && nano .xpath'
 alias xkb='cd ~/.xconfig/ && nano .xkey_binds'
 alias xf='cd ~/.xconfig/ && nano .xfunctions'
+alias xpl='cd ~/.xconfig/ && nano .xplugins'
 #//////
 #////// ~ HOME/
 alias home='cd /home/happycod3r && ls -a'

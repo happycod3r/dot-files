@@ -155,11 +155,14 @@ fi
 if [ -f ~/.xconfig/.xpath ]; then
     . ~/.xconfig/.xpath
 fi
-if [ -f ~/.xconfig/.xkey_binds ]; then
-    . ~/.xconfig/.xkey_binds
+if [ -f ~/.xconfig/.xplugins ]; then
+    . ~/.xconfig/.xplugins
 fi
 if [ -f ~/.xconfig/.xfunctions ]; then
-    . ~/.xconfig//xfunctions
+    . ~/.xconfig/.xfunctions
+fi
+if [ -f ~/.xconfig/.xkey_binds ]; then
+    . ~/.xconfig/.xkey_binds
 fi
 #//////
 

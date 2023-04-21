@@ -15,3 +15,4 @@ export PATH="/mnt/chromeos/removable/Y:$PATH"
 export PATH="/mnt/chromeos/MyFiles:$PATH" #Unused.
 export PATH="/mnt/chromeos/GoogleDrive:$PATH" #Unused.
 export PATH="/home/happycod3r/node_modules:$PATH"
+export PATH="/home/happycod3r/.xconfig:$PATH"

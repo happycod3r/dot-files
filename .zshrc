@@ -25,14 +25,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 #robbyrussell, rkj-repos, agnoster, fino-time, steeef, bira, gnzh, jonathan
 #//////
 
-#////// * RANDOM THEME CANDIDATES * //////
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-#//////
-
 #////// * CASE SENSITIVE COMPLETION * //////
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -110,12 +102,18 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup
-plugins=(git github node ng react-native python vscode sublime debian github colorize copypath)
+plugins=(git github node ng react-native python vscode colorize copypath)
 source $ZSH/oh-my-zsh.sh
 #//////
 
 #////// * USER CONFIG * //////
 # User configuration
+if [ -f ~/.xconfig/.xplugins ]; then
+    . ~/.xconfig/.xplugins
+fi
+if [ -f ~/.xconfig/.xfunctions ]; then
+    . ~/.xconfig/.xfunctions
+fi
 #//////
 
 #////// * MANPATH * //////
@@ -124,7 +122,7 @@ source $ZSH/oh-my-zsh.sh
 
 #////// * LANGUAGE * //////
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 #//////
 
 #////// * PREFERRED EDITOR * //////
@@ -155,12 +153,6 @@ fi
 if [ -f ~/.xconfig/.xpath ]; then
     . ~/.xconfig/.xpath
 fi
-if [ -f ~/.xconfig/.xplugins ]; then
-    . ~/.xconfig/.xplugins
-fi
-if [ -f ~/.xconfig/.xfunctions ]; then
-    . ~/.xconfig/.xfunctions
-fi
 if [ -f ~/.xconfig/.xkey_binds ]; then
     . ~/.xconfig/.xkey_binds
 fi
@@ -171,5 +163,6 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #//////
 
-#------------
+#////// * COMMANDS TO EXECUTE BEFORE PROMPT * //////
 task ls
+#//////

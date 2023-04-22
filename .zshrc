@@ -102,7 +102,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup
-plugins=(git github node ng react-native python vscode colorize copypath)
+plugins=(git github node ng react-native python vscode colorize)
 source $ZSH/oh-my-zsh.sh
 #//////
 
@@ -164,5 +164,5 @@ fi
 #//////
 
 #////// * COMMANDS TO EXECUTE BEFORE PROMPT * //////
-task ls
+#task ls
 #//////

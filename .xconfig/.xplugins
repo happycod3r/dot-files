@@ -1,3 +1,26 @@
-#////// TEST //////
+#////// ARCHIVE EXTRACTOR
+source ~/.xconfig/.xplug_ins/archive_extractor.plug
+alias _x=extract
+#//////
 
+#////// ENCODE/DECODE 64
+source ~/.xconfig/.xplug_ins/encode64.plug
+alias e64=encode64
+alias ef64=encodefile64
+alias d64=decode64
+#//////
+
+#////// ALIAS FINDER
+source ~/.xconfig/.xplug_ins/alias_finder.plug
+alias alias4=alias_finder
+#//////
+
+#////// ALIASES
+source ~/.xconfig/.xplug_ins/aliases/aliases.plug
+alias aliases4=acs
+#//////
+
+#Uncomment to enable on Arch Linux.
+#////// ARCH LINUX
+#source ~/.xconfig/.xplug_ins/linux_arch.plug
 #//////

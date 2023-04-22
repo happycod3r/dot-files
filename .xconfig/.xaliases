@@ -1,8 +1,8 @@
- #////// COMMAND/ARG ALIASES //////
+#////// ~ COMMAND/ARG ALIASES //////
 alias say='echo'
 alias lsd='ls -lh'
 alias lsa='ls -a'
-alias l='ls -alh'
+alias l='ls -alh' 
 alias ll='ls -alFh --color=always'
 alias clearl='clear && ls -a'
 #//////
@@ -10,7 +10,7 @@ alias clearl='clear && ls -a'
 #////// FILE OPS //////
 alias mkx='sudo chmod +x'
 alias ether='sudo rm -r'
-alias nanol='nano -l'
+alias nanol='nano -l' 
 #//////
 
 #////// PLUGINS/PLUGIN DIRECTORIES //////
@@ -22,4 +22,3 @@ alias pckgs='apt list --installed'
 #////// BIN
 alias info='bpytop'
 alias tasks='htop'
-

@@ -20,6 +20,9 @@ source ~/.xconfig/.xplug_ins/aliases/aliases.plug
 alias aliases4=acs
 #//////
 
+#////// COMPLETIONS //////
+source ~/.xconfig/.xplug_ins/completions/completions.plug
+
 #Uncomment to enable on Arch Linux.
 #////// ARCH LINUX
 #source ~/.xconfig/.xplug_ins/linux_arch.plug

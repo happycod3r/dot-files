@@ -2,9 +2,9 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+#if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+#fi
 #//////
 
 #////// * $PATH VARIABLE VALUES * //////
@@ -14,6 +14,11 @@ fi
 #////// * OH-MY-ZSH INSTALLATION PATH * //////
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+#//////
+
+#////// * XCONFIG * //////
+export XCONFIG="$HOME/.xconfig"
+export XPLUGINS="$HOME/.xconfig/.xplugins"
 #//////
 
 #////// * ZSH THEME * //////
@@ -93,7 +98,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 
 #////// * CUSTOM ZSH FOLDER/S * //////
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+#ZSH_CUSTOM=~/.xconfig/.xplug_ins/
 #//////
 
 #////// * ENABLE/DISABLE PLUGINS * //////
@@ -103,6 +108,16 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup
 plugins=(git github node ng react-native python vscode colorize)
+#//////
+
+#////// * COMPLETIONS * //////
+#fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+fpath+=${ZSH_CUSTOM:-}
+fpath+=${ZSH:-}
+fpath+=${XPLUGINS:-}
+#//////
+
+#////// * SOURCE * //////
 source $ZSH/oh-my-zsh.sh
 #//////
 

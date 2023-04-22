@@ -2,9 +2,9 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-#if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-#fi
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 #//////
 
 #////// * $PATH VARIABLE VALUES * //////
@@ -18,7 +18,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 #////// * XCONFIG * //////
 export XCONFIG="$HOME/.xconfig"
-export XPLUGINS="$HOME/.xconfig/.xplugins"
+export XPLUGINS="$HOME/.xconfig/.xplug_ins"
 #//////
 
 #////// * ZSH THEME * //////
@@ -42,7 +42,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 #//////
 
 #////// * UPDATE SETTINGS * //////
-# Uncomment one of the following lines to change the auto-update behavior 
+# Uncomment one of the following lines to change the auto-update behavior
 zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
@@ -71,7 +71,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # ENABLE_CORRECTION="true"
 #//////
 
-#////// * ENABLE?DISABLE WAITING RED DOTS * //////
+#////// * ENABLE/DISABLE WAITING RED DOTS * //////
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
@@ -110,25 +110,17 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 plugins=(git github node ng react-native python vscode colorize)
 #//////
 
-#////// * COMPLETIONS * //////
-#fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
-fpath+=${ZSH_CUSTOM:-}
-fpath+=${ZSH:-}
-fpath+=${XPLUGINS:-}
-#//////
-
-#////// * SOURCE * //////
-source $ZSH/oh-my-zsh.sh
-#//////
-
-#////// * USER CONFIG * //////
-# User configuration
+#////// * XPLUGINS * //////
 if [ -f ~/.xconfig/.xplugins ]; then
     . ~/.xconfig/.xplugins
 fi
 if [ -f ~/.xconfig/.xfunctions ]; then
     . ~/.xconfig/.xfunctions
 fi
+#//////
+
+#////// * SOURCE * //////
+source $ZSH/oh-my-zsh.sh
 #//////
 
 #////// * MANPATH * //////

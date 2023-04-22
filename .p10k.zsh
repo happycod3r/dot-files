@@ -32,7 +32,10 @@
   # The list of segments shown on the left. Fill it with the most important segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
     # =========================[ Line #1 ]=========================
+    disk_usage              # disk usage (green)
+    ram                     # free RAM (purple)
     load                    # CPU load (orange)
+    #public_ip               # My public ip address
     os_icon                 # os identifier
     dir                     # current directory
     nodenv                  # node.js version from nodenv (https://github.com/nodenv/nodenv)
@@ -50,7 +53,6 @@
 
     # =========================[ Line #2 ]=========================
     newline                 # \n
-    public_ip
     status                  # exit code of the last command
     command_execution_time  # duration of the last command
     time                    # current time
@@ -71,10 +73,10 @@
     #asdf                    # asdf version manager (https://github.com/asdf-vm/asdf)
     #anaconda                # conda environment (https://conda.io/)
     #goenv                   # go environment (https://github.com/syndbg/goenv)
-    # go_version            # go version (https://golang.org)
-    # rust_version          # rustc version (https://www.rust-lang.org)
-    # dotnet_version        # .NET version (https://dotnet.microsoft.com)
-    # laravel_version       # laravel php framework version (https://laravel.com/)
+    #go_version              # go version (https://golang.org)
+    #rust_version            # rustc version (https://www.rust-lang.org)
+    #dotnet_version          # .NET version (https://dotnet.microsoft.com)
+    #laravel_version         # laravel php framework version (https://laravel.com/)
     #rbenv                   # ruby version from rbenv (https://github.com/rbenv/rbenv)
     #rvm                     # ruby version from rvm (https://rvm.io)
     #fvm                     # flutter version management (https://github.com/leoafarias/fvm)
@@ -85,14 +87,14 @@
     #haskell_stack           # haskell version from stack (https://haskellstack.org/)
     #kubecontext             # current kubernetes context (https://kubernetes.io/)
     #terraform               # terraform workspace (https://www.terraform.io)
-    # terraform_version     # terraform version (https://www.terraform.io)
+    #terraform_version       # terraform version (https://www.terraform.io)
     #aws                     # aws profile (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
     #aws_eb_env              # aws elastic beanstalk environment (https://aws.amazon.com/elasticbeanstalk/)
     #azure                   # azure account name (https://docs.microsoft.com/en-us/cli/azure)
     #gcloud                  # google cloud cli account and project (https://cloud.google.com/)
     #google_app_cred         # google application credentials (https://cloud.google.com/docs/authentication/production)
     #toolbox                 # toolbox name (https://github.com/containers/toolbox)
-    context                 # user@hostname
+    #context                 # user@hostname
     #nordvpn                 # nordvpn connection status, linux only (https://nordvpn.com/)
     #ranger                  # ranger shell (https://github.com/ranger/ranger)
     #nnn                     # nnn shell (https://github.com/jarun/nnn)
@@ -103,8 +105,6 @@
     #nix_shell               # nix shell (https://nixos.org/nixos/nix-pills/developing-with-nix-shell.html)
     # vi_mode               # vi mode (you don't need this if you've enabled prompt_char)
     # vpn_ip                # virtual private network indicator
-    #disk_usage            # disk usage (green)
-    #ram                   # free RAM (purple)
     #swap                  # used swap
     # =========================[ Line #2 ]=========================
     #newline               # \n
@@ -113,7 +113,7 @@
     #proxy                 # system-wide http/https/ftp proxy
     #battery               # internal battery
     #wifi                  # wifi speed
-    # example               # example user-defined segment (see prompt_example function below)
+    #example               # example user-defined segment (see prompt_example function below)
   )
 
   # Defines character set used by powerlevel10k. It's best to let `p10k configure` set it for you.
@@ -1610,7 +1610,7 @@
   #
   # Type `p10k help segment` for documentation and a more sophisticated example.
   function prompt_example() {
-    p10k segment -f 208 -i '⭐' -t 'hello, %n'
+    p10k segment -f 208 -i '⭐' -t "happycod3r"
   }
 
   # User-defined prompt segments may optionally provide an instant_prompt_* function. Its job

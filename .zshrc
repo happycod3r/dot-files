@@ -1,3 +1,14 @@
+
+#  888888888888   ad88888ba   88        88             8b        d8  88888888888  888888888888    db
+#           ,88  d8"     "8b  88        88              Y8,    ,8P   88                88        d88b
+#         ,88"   Y8,          88        88               `8b  d8'    88                88       d8'`8b
+#       ,88"     `Y8aaaaa,    88aaaaaaaa88                 Y88P      88aaaaa           88      d8'  `8b
+#     ,88"         `"""""8b,  88""""""""88                 d88b      88"""""           88     d8YaaaaY8b
+#   ,88"                 `8b  88        88               ,8P  Y8,    88                88    d8""""""""8b
+#  88"           Y8a     a8P  88        88     888      d8'    `8b   88                88   d8'        `8b
+#  888888888888   "Y88888P"   88        88     888     8P        Y8  88888888888       88  d8'          `8b
+#                                                                       01011000 01100101 01110100 01100001
+
 #////// * ENABLE/DISABLE INSTANT PROMPT * //////
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -17,8 +28,8 @@ export ZSH="$HOME/.oh-my-zsh"
 #//////
 
 #////// * XCONFIG * //////
-export XCONFIG="$HOME/.xconfig"
-export XPLUGINS="$HOME/.xconfig/.xplug_ins"
+export XETA="$HOME/.xeta"
+export XPLUGINS="$HOME/.xeta/.xplug_ins"
 #//////
 
 #////// * ZSH THEME * //////
@@ -98,7 +109,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 
 #////// * CUSTOM ZSH FOLDER/S * //////
 # Would you like to use another custom folder than $ZSH/custom?
-#ZSH_CUSTOM=~/.xconfig/.xplug_ins/
+#ZSH_CUSTOM=~/.xeta/.xplug_ins/
 #//////
 
 #////// * ENABLE/DISABLE PLUGINS * //////
@@ -111,11 +122,11 @@ plugins=(git github node ng react-native python vscode colorize)
 #//////
 
 #////// * XPLUGINS * //////
-if [ -f ~/.xconfig/.xplugins ]; then
-    . ~/.xconfig/.xplugins
+if [ -f $XETA/.xplugins ]; then
+    . $XETA/.xplugins
 fi
-if [ -f ~/.xconfig/.xfunctions ]; then
-    . ~/.xconfig/.xfunctions
+if [ -f $XETA/.xfunctions ]; then
+    . $XETA/.xfunctions
 fi
 #//////
 
@@ -151,23 +162,27 @@ fi
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-if [ -f ~/.xconfig/.xaliases ]; then
-    . ~/.xconfig/.xaliases
+if [ -f $XETA/.xaliases ]; then
+    . $XETA/.xaliases
 fi
-if [ -f ~/.xconfig/.xjump_points ]; then
-    . ~/.xconfig/.xjump_points
+if [ -f $XETA/.xjump_points ]; then
+    . $XETA/.xjump_points
 fi
-if [ -f ~/.xconfig/.xpath ]; then
-    . ~/.xconfig/.xpath
+if [ -f $XETA/.xpath ]; then
+    . $XETA/.xpath
 fi
-if [ -f ~/.xconfig/.xkey_binds ]; then
-    . ~/.xconfig/.xkey_binds
+if [ -f $XETA/.xkey_binds ]; then
+    . $XETA/.xkey_binds
 fi
 #//////
 
 #////// * CUSTOMIZE PROMPT * //////
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#//////
+
+#////// ZSH SYNTAX HIGHLIGHTER
+source $XPLUGINS/zsh_syntax_highlighting/zsh_syntax_highlighting.plug
 #//////
 
 #////// * COMMANDS TO EXECUTE BEFORE PROMPT * //////

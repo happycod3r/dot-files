@@ -29,7 +29,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 #////// * XCONFIG * //////
 export XETA="$HOME/.xeta"
-export XPLUGINS="$HOME/.xeta/.xplug_ins"
+export XFILES="$XETA/xfiles"
+export XPLUGS="$XETA/xplug_ins"
 #//////
 
 #////// * ZSH THEME * //////
@@ -122,11 +123,11 @@ plugins=(git github node ng react-native python vscode colorize)
 #//////
 
 #////// * XPLUGINS * //////
-if [ -f $XETA/.xplugins ]; then
-    . $XETA/.xplugins
+if [ -f $XFILES/.xplugins ]; then
+    . $XFILES/.xplugins
 fi
-if [ -f $XETA/.xfunctions ]; then
-    . $XETA/.xfunctions
+if [ -f $XFILES/.xfunctions ]; then
+    . $XFILES/.xfunctions
 fi
 #//////
 
@@ -162,17 +163,17 @@ fi
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-if [ -f $XETA/.xaliases ]; then
-    . $XETA/.xaliases
+if [ -f $XFILES/.xaliases ]; then
+    . $XFILES/.xaliases
 fi
-if [ -f $XETA/.xjump_points ]; then
-    . $XETA/.xjump_points
+if [ -f $XFILES/.xjump_points ]; then
+    . $XFILES/.xjump_points
 fi
-if [ -f $XETA/.xpath ]; then
-    . $XETA/.xpath
+if [ -f $XFILES/.xpath ]; then
+    . $XFILES/.xpath
 fi
-if [ -f $XETA/.xkey_binds ]; then
-    . $XETA/.xkey_binds
+if [ -f $XFILES/.xkey_binds ]; then
+    . $XFILES/.xkey_binds
 fi
 #//////
 
@@ -182,7 +183,7 @@ fi
 #//////
 
 #////// ZSH SYNTAX HIGHLIGHTER
-source $XPLUGINS/zsh_syntax_highlighting/zsh_syntax_highlighting.plug
+source $XPLUGS/zsh_syntax_highlighting/zsh_syntax_highlighting.plug
 #//////
 
 #////// * COMMANDS TO EXECUTE BEFORE PROMPT * //////

@@ -1,20 +1,17 @@
 
-#  888888888888   ad88888ba   88        88             8b        d8  88888888888  888888888888    db
-#           ,88  d8"     "8b  88        88              Y8,    ,8P   88                88        d88b
-#         ,88"   Y8,          88        88               `8b  d8'    88                88       d8'`8b
-#       ,88"     `Y8aaaaa,    88aaaaaaaa88                 Y88P      88aaaaa           88      d8'  `8b
-#     ,88"         `"""""8b,  88""""""""88                 d88b      88"""""           88     d8YaaaaY8b
-#   ,88"                 `8b  88        88               ,8P  Y8,    88                88    d8""""""""8b
-#  88"           Y8a     a8P  88        88     888      d8'    `8b   88                88   d8'        `8b
-#  888888888888   "Y88888P"   88        88     888     8P        Y8  88888888888       88  d8'          `8b
-#                                                                       01011000 01100101 01110100 01100001
+#////// * ENABLE/DISABLE COMPLETIONS FUNCTIONALITY *//////
+#Compdef is basically a function used by zsh for load the auto-completions. The completion #system needs to be activated. If you’re using something like oh-my-zsh then this is #already taken care of, otherwise you’ll need to add the following to uncomment
+#the following.
+#autoload -Uz compinit
+#compinit
+#//////
 
 #////// * ENABLE/DISABLE INSTANT PROMPT * //////
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 #//////
 
@@ -109,7 +106,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 #//////
 
 #////// * CUSTOM ZSH FOLDER/S * //////
-# Would you like to use another custom folder than $ZSH/custom?
+# Would you like to use another custom folder other than $ZSH/custom?
 #ZSH_CUSTOM=~/.xeta/.xplug_ins/
 #//////
 
@@ -119,15 +116,15 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup
-plugins=(git github node ng react-native python vscode colorize)
+plugins=(git github node react-native)
 #//////
 
 #////// * XPLUGINS * //////
-if [ -f $XFILES/.xplugins ]; then
-    . $XFILES/.xplugins
-fi
 if [ -f $XFILES/.xfunctions ]; then
     . $XFILES/.xfunctions
+fi
+if [ -f $XFILES/.xplugins ]; then
+    . $XFILES/.xplugins
 fi
 #//////
 

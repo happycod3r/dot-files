@@ -120,6 +120,9 @@ plugins=(git github node react-native)
 #//////
 
 #////// * XPLUGINS * //////
+if [ -f $XFILES/.xvariables ]; then
+    . $XFILES/.xvariables
+fi
 if [ -f $XFILES/.xfunctions ]; then
     . $XFILES/.xfunctions
 fi

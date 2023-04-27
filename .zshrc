@@ -24,10 +24,11 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 #//////
 
-#////// * XCONFIG * //////
+#////// * XETA * //////
 export XETA="$HOME/.xeta"
 export XFILES="$XETA/xfiles"
 export XPLUGS="$XETA/xplug_ins"
+export XLIB="$XETA/lib/functions"
 #//////
 
 #////// * ZSH THEME * //////
@@ -116,16 +117,10 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup
-plugins=(git github node react-native)
+plugins=(git github)
 #//////
 
 #////// * XPLUGINS * //////
-if [ -f $XFILES/.xvariables ]; then
-    . $XFILES/.xvariables
-fi
-if [ -f $XFILES/.xfunctions ]; then
-    . $XFILES/.xfunctions
-fi
 if [ -f $XFILES/.xplugins ]; then
     . $XFILES/.xplugins
 fi
@@ -158,22 +153,9 @@ fi
 # export ARCHFLAGS="-arch x86_64"
 #//////
 
-#////// * PERSONAL FILES * //////
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-if [ -f $XFILES/.xaliases ]; then
-    . $XFILES/.xaliases
-fi
-if [ -f $XFILES/.xjump_points ]; then
-    . $XFILES/.xjump_points
-fi
-if [ -f $XFILES/.xpath ]; then
-    . $XFILES/.xpath
-fi
-if [ -f $XFILES/.xkey_binds ]; then
-    . $XFILES/.xkey_binds
+#////// * .XETA * //////
+if [[ -f $XETA/.xeta ]]; then
+    . $XETA/.xeta
 fi
 #//////
 

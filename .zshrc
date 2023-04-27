@@ -109,7 +109,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 #////// * CUSTOM ZSH FOLDER/S * //////
 # Would you like to use another custom folder other than $ZSH/custom?
 #ZSH_CUSTOM=~/.xeta/.xplug_ins/
-#//////
+#////// 
 
 #////// * ENABLE/DISABLE PLUGINS * //////
 # Which plugins would you like to load?
@@ -117,7 +117,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup
-plugins=(git github)
+plugins=() #Finally empty :) Go Xeta
 #//////
 
 #////// * XPLUGINS * //////
@@ -150,7 +150,7 @@ fi
 
 #////// * COMPILATION FLAGS * //////
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+# exporrt ARCHFLAGS="-arch x86_64"
 #//////
 
 #////// * .XETA * //////
@@ -163,7 +163,6 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #//////
-
 #////// ZSH SYNTAX HIGHLIGHTER
 source $XPLUGS/zsh_syntax_highlighting/zsh_syntax_highlighting.plug
 #//////

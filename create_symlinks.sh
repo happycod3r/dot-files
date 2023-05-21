@@ -16,7 +16,7 @@ function create_symbolic_links() {
     home="$HOME"
     dotconf="${home}/.config"
     
-    dot_files_dir="${root}mnt/chromeos/removable/X/backups/linux/.dot-files"
+    dot_files_dir="$(pwd)/.dot-files"
     
     #(/etc/nanorc)
     sudo ln -sf "${dot_files_dir}/nanorc" "${etc}/nanorc"

@@ -22,6 +22,6 @@ else
 fi
 
 source $HOME/.xeta/.xeta
-source /mnt/chromeos/GoogleDrive/MyDrive/dev/projects/shell/zsh/fzf-tools/fzf-tools.zsh
+source /mnt/chromeos/X/dev/projects/shell/zsh/fzf-tools/src/fzf-tools.zsh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

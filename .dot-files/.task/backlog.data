@@ -1,0 +1,50 @@
+{"description":"My first task!","entry":"20230414T063747Z","modified":"20230414T063747Z","status":"pending","uuid":"fd3029e7-cfa0-418e-84a9-42a691d41d90"}
+{"description":"My First task","entry":"20230414T064046Z","modified":"20230414T064046Z","status":"pending","uuid":"d131eb2d-745d-4e43-b0fb-222b2cc78d12"}
+{"description":"My first task!","end":"20230414T064300Z","entry":"20230414T063747Z","modified":"20230414T064305Z","status":"deleted","uuid":"fd3029e7-cfa0-418e-84a9-42a691d41d90"}
+{"description":"My First task","end":"20230414T064316Z","entry":"20230414T064046Z","modified":"20230414T064321Z","status":"deleted","uuid":"d131eb2d-745d-4e43-b0fb-222b2cc78d12"}
+{"description":"Add README.md files to neccesary directories on Github.","entry":"20230414T064505Z","modified":"20230414T064505Z","status":"pending","uuid":"534fc964-afe0-4578-a108-605eea1196ae"}
+{"description":"Revise BASH-Scripts repository","entry":"20230414T064556Z","modified":"20230414T064556Z","status":"pending","uuid":"6cbe7db8-2cd0-4a9d-b032-a65d7e099379"}
+{"description":"Get rid of tabby carefully!","entry":"20230414T064834Z","modified":"20230414T064834Z","status":"pending","uuid":"4eea5716-605e-495f-839e-49a5c85e3d99"}
+{"description":"Get schoolwork done","entry":"20230414T162135Z","modified":"20230414T162135Z","status":"pending","uuid":"da993908-3452-42e0-a1a3-6696dd0e239e"}
+{"description":"Add gif background to .p10k.zsh push","entry":"20230414T162544Z","modified":"20230414T162544Z","status":"pending","uuid":"f1f6b133-24c2-48dd-87f8-4471b971adea"}
+{"description":"Add unicode character in a txt to git push as well","entry":"20230414T170404Z","modified":"20230414T170404Z","status":"pending","uuid":"e8f1e9b4-1f1f-4289-8727-c9277ff9e953"}
+{"description":"Add color index too","entry":"20230414T172527Z","modified":"20230414T172527Z","status":"pending","uuid":"f4372bca-7d7b-4a55-9e1d-9493ba1d26f3"}
+{"description":"Add color index too","end":"20230414T204135Z","entry":"20230414T172527Z","modified":"20230414T204138Z","status":"deleted","uuid":"f4372bca-7d7b-4a55-9e1d-9493ba1d26f3"}
+{"description":"Add gif background to .p10k.zsh push","end":"20230414T204208Z","entry":"20230414T162544Z","modified":"20230414T204223Z","status":"deleted","uuid":"f1f6b133-24c2-48dd-87f8-4471b971adea"}
+{"description":"Add unicode character in a txt to git push as well","end":"20230414T205229Z","entry":"20230414T170404Z","modified":"20230414T205231Z","status":"deleted","uuid":"e8f1e9b4-1f1f-4289-8727-c9277ff9e953"}
+{"description":"finish root method 2","entry":"20230416T022959Z","modified":"20230416T022959Z","status":"pending","uuid":"4e48ce29-a2f0-4bbc-b3b1-8583dfa40e0a"}
+{"description":"Get rid of tabby carefully!","end":"20230416T201516Z","entry":"20230414T064834Z","modified":"20230416T201518Z","status":"deleted","uuid":"4eea5716-605e-495f-839e-49a5c85e3d99"}
+{"description":"Revise BASH-Scripts repository","end":"20230416T201555Z","entry":"20230414T064556Z","modified":"20230416T201558Z","status":"deleted","uuid":"6cbe7db8-2cd0-4a9d-b032-a65d7e099379"}
+{"description":"Fix source issue on cd2p","entry":"20230416T211816Z","modified":"20230416T211816Z","status":"pending","uuid":"823b538e-31a7-4905-be4a-060e527a293d"}
+{"description":"Install JDK","entry":"20230416T211917Z","modified":"20230416T211917Z","status":"pending","uuid":"c78a3b4b-1586-4cc3-9ec4-d71898c73c76"}
+{"description":"create quick message app","entry":"20230416T222630Z","modified":"20230416T222630Z","status":"pending","uuid":"c71da2ee-bc16-4929-8037-477a95622dc6"}
+{"description":"create multi archive tool","entry":"20230416T222926Z","modified":"20230416T222926Z","status":"pending","uuid":"251a6d8c-abf1-4fab-b023-dff09a1af5cb"}
+{"description":"Create exit code reader","entry":"20230416T230346Z","modified":"20230416T230346Z","status":"pending","uuid":"26a2d0ce-87ad-4af8-89ee-8be85dc06b6b"}
+{"description":"hook java to system","entry":"20230416T231444Z","modified":"20230416T231444Z","status":"pending","uuid":"230c2e6a-96d4-4f2e-ab46-86d1374cd40a"}
+{"description":"Add clause to cd2p for string that doesn't match","entry":"20230417T013057Z","modified":"20230417T013057Z","status":"pending","uuid":"535dbc42-930a-45c0-84da-51b8cf24e668"}
+{"description":"Install arch linux on ext. drive","entry":"20230417T020039Z","modified":"20230417T020039Z","status":"pending","uuid":"acdef8fc-e57f-489b-b25b-a4889588fea4"}
+{"description":"fix variable issue in cd2p asap","entry":"20230417T024811Z","modified":"20230417T024811Z","status":"pending","uuid":"d81e8047-b32e-48af-96b7-9a671fb9c04f"}
+{"description":"hook java to system","end":"20230417T025930Z","entry":"20230416T231444Z","modified":"20230417T025934Z","status":"deleted","uuid":"230c2e6a-96d4-4f2e-ab46-86d1374cd40a"}
+{"description":"implement: var arr = text.split(\/\\s+\/); in dictionary","entry":"20230417T030116Z","modified":"20230417T030116Z","status":"pending","uuid":"07558529-1729-4a1c-b293-bd51cf79e05b"}
+{"description":"Test java","entry":"20230417T030136Z","modified":"20230417T030136Z","status":"pending","uuid":"712ee7a0-52d3-404c-87eb-d6c9b6463ca5"}
+{"description":"Write automation script for java compilation","entry":"20230417T150209Z","modified":"20230417T150209Z","status":"pending","uuid":"cbf5e1d0-200f-4198-ac54-6d1e3880b13c"}
+{"description":"add code for wrong arg1 given in javarun","entry":"20230418T155419Z","modified":"20230418T155419Z","status":"pending","uuid":"c60b54dd-5628-4863-896b-938784b9b48f"}
+{"description":"Install JDK","end":"20230418T155437Z","entry":"20230416T211917Z","modified":"20230418T155440Z","status":"deleted","uuid":"c78a3b4b-1586-4cc3-9ec4-d71898c73c76"}
+{"description":"Fix source issue on cd2p","end":"20230419T224650Z","entry":"20230416T211816Z","modified":"20230419T224652Z","status":"deleted","uuid":"823b538e-31a7-4905-be4a-060e527a293d"}
+{"description":"fix variable issue in cd2p asap","end":"20230419T224736Z","entry":"20230417T024811Z","modified":"20230419T224738Z","status":"deleted","uuid":"d81e8047-b32e-48af-96b7-9a671fb9c04f"}
+{"description":"Test java","end":"20230419T224759Z","entry":"20230417T030136Z","modified":"20230419T224801Z","status":"deleted","uuid":"712ee7a0-52d3-404c-87eb-d6c9b6463ca5"}
+{"description":"Write automation script for java compilation","end":"20230419T224826Z","entry":"20230417T150209Z","modified":"20230419T224828Z","status":"deleted","uuid":"cbf5e1d0-200f-4198-ac54-6d1e3880b13c"}
+{"description":"Check out password manager","entry":"20230422T032949Z","modified":"20230422T032949Z","status":"pending","uuid":"f25aa23c-b1b6-4e03-82c9-afb1640846a5"}
+{"description":"Look at integratin p10k into xconf directly or as default","entry":"20230422T053524Z","modified":"20230422T053524Z","status":"pending","uuid":"227bea3e-68d1-4cff-bc34-d8c1abe19edc"}
+{"description":"finish porting plugins","entry":"20230422T053542Z","modified":"20230422T053542Z","status":"pending","uuid":"f560bb10-dda9-4cb8-a26b-460d1dbfa33d"}
+{"description":"Remove all zsh plugins not being used after porting","entry":"20230422T175328Z","modified":"20230422T175328Z","status":"pending","uuid":"291915c7-14df-490d-b937-258d04348170"}
+{"description":"Write code 2 put xfiles where the user wants","entry":"20230423T143908Z","modified":"20230423T143908Z","status":"pending","uuid":"217c80b8-1dd9-4292-8cbb-f370251b59bd"}
+{"description":"write code for failed to load plugins so there are no bad looking errors on the terminal","entry":"20230423T144833Z","modified":"20230423T144833Z","status":"pending","uuid":"1a13d6ab-6a63-4dbd-b6e8-a78ea0265002"}
+{"description":"Change '.plug' files to '._xplug' files","entry":"20230423T145721Z","modified":"20230423T145721Z","status":"pending","uuid":"927004b2-6592-4da3-bc09-f71ca980cafa"}
+{"description":"write neofetch specific aliases","entry":"20230424T212649Z","modified":"20230424T212649Z","status":"pending","uuid":"5eae795d-e02e-438f-8558-e7770a72d9d2"}
+{"description":"write credential storage system","entry":"20230426T181325Z","modified":"20230426T181325Z","status":"pending","uuid":"6b17ba30-6565-44a0-9858-a0d13d972cdc"}
+{"description":"write 255 color aliases or func","entry":"20230426T181358Z","modified":"20230426T181358Z","status":"pending","uuid":"43bdb66b-890e-4c3f-8d9b-c72501d2f5fb"}
+{"description":"write function to read plugin readme.md files","entry":"20230427T053314Z","modified":"20230427T053314Z","status":"pending","uuid":"13345b6e-769d-48b5-aa01-475bdac3a534"}
+{"description":"Create jam for basic routing concepts vid diagram in Routing","entry":"20230429T013631Z","modified":"20230429T013631Z","status":"pending","uuid":"5721231e-f2ff-45d6-9f93-af48e5af11fa"}
+{"description":"remove etcher when done","entry":"20230429T070149Z","modified":"20230429T070149Z","status":"pending","uuid":"6ee32b30-7bc0-44d0-aa97-e234a93881b0"}
+{"description":"remove gparted\/parted when done","entry":"20230429T070204Z","modified":"20230429T070204Z","status":"pending","uuid":"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"}

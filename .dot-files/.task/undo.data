@@ -1,0 +1,163 @@
+time 1681454267
+new [description:"My first task!" entry:"1681454267" modified:"1681454267" status:"pending" uuid:"fd3029e7-cfa0-418e-84a9-42a691d41d90"]
+---
+time 1681454446
+new [description:"My First task" entry:"1681454446" modified:"1681454446" status:"pending" uuid:"d131eb2d-745d-4e43-b0fb-222b2cc78d12"]
+---
+time 1681454585
+old [description:"My first task!" entry:"1681454267" modified:"1681454267" status:"pending" uuid:"fd3029e7-cfa0-418e-84a9-42a691d41d90"]
+new [description:"My first task!" end:"1681454580" entry:"1681454267" modified:"1681454585" status:"deleted" uuid:"fd3029e7-cfa0-418e-84a9-42a691d41d90"]
+---
+time 1681454601
+old [description:"My First task" entry:"1681454446" modified:"1681454446" status:"pending" uuid:"d131eb2d-745d-4e43-b0fb-222b2cc78d12"]
+new [description:"My First task" end:"1681454596" entry:"1681454446" modified:"1681454601" status:"deleted" uuid:"d131eb2d-745d-4e43-b0fb-222b2cc78d12"]
+---
+time 1681454705
+new [description:"Add README.md files to neccesary directories on Github." entry:"1681454705" modified:"1681454705" status:"pending" uuid:"534fc964-afe0-4578-a108-605eea1196ae"]
+---
+time 1681454756
+new [description:"Revise BASH-Scripts repository" entry:"1681454756" modified:"1681454756" status:"pending" uuid:"6cbe7db8-2cd0-4a9d-b032-a65d7e099379"]
+---
+time 1681454914
+new [description:"Get rid of tabby carefully!" entry:"1681454914" modified:"1681454914" status:"pending" uuid:"4eea5716-605e-495f-839e-49a5c85e3d99"]
+---
+time 1681489295
+new [description:"Get schoolwork done" entry:"1681489295" modified:"1681489295" status:"pending" uuid:"da993908-3452-42e0-a1a3-6696dd0e239e"]
+---
+time 1681489544
+new [description:"Add gif background to .p10k.zsh push" entry:"1681489544" modified:"1681489544" status:"pending" uuid:"f1f6b133-24c2-48dd-87f8-4471b971adea"]
+---
+time 1681491844
+new [description:"Add unicode character in a txt to git push as well" entry:"1681491844" modified:"1681491844" status:"pending" uuid:"e8f1e9b4-1f1f-4289-8727-c9277ff9e953"]
+---
+time 1681493127
+new [description:"Add color index too" entry:"1681493127" modified:"1681493127" status:"pending" uuid:"f4372bca-7d7b-4a55-9e1d-9493ba1d26f3"]
+---
+time 1681504898
+old [description:"Add color index too" entry:"1681493127" modified:"1681493127" status:"pending" uuid:"f4372bca-7d7b-4a55-9e1d-9493ba1d26f3"]
+new [description:"Add color index too" end:"1681504895" entry:"1681493127" modified:"1681504898" status:"deleted" uuid:"f4372bca-7d7b-4a55-9e1d-9493ba1d26f3"]
+---
+time 1681504943
+old [description:"Add gif background to .p10k.zsh push" entry:"1681489544" modified:"1681489544" status:"pending" uuid:"f1f6b133-24c2-48dd-87f8-4471b971adea"]
+new [description:"Add gif background to .p10k.zsh push" end:"1681504928" entry:"1681489544" modified:"1681504943" status:"deleted" uuid:"f1f6b133-24c2-48dd-87f8-4471b971adea"]
+---
+time 1681505551
+old [description:"Add unicode character in a txt to git push as well" entry:"1681491844" modified:"1681491844" status:"pending" uuid:"e8f1e9b4-1f1f-4289-8727-c9277ff9e953"]
+new [description:"Add unicode character in a txt to git push as well" end:"1681505549" entry:"1681491844" modified:"1681505551" status:"deleted" uuid:"e8f1e9b4-1f1f-4289-8727-c9277ff9e953"]
+---
+time 1681612199
+new [description:"finish root method 2" entry:"1681612199" modified:"1681612199" status:"pending" uuid:"4e48ce29-a2f0-4bbc-b3b1-8583dfa40e0a"]
+---
+time 1681676118
+old [description:"Get rid of tabby carefully!" entry:"1681454914" modified:"1681454914" status:"pending" uuid:"4eea5716-605e-495f-839e-49a5c85e3d99"]
+new [description:"Get rid of tabby carefully!" end:"1681676116" entry:"1681454914" modified:"1681676118" status:"deleted" uuid:"4eea5716-605e-495f-839e-49a5c85e3d99"]
+---
+time 1681676158
+old [description:"Revise BASH-Scripts repository" entry:"1681454756" modified:"1681454756" status:"pending" uuid:"6cbe7db8-2cd0-4a9d-b032-a65d7e099379"]
+new [description:"Revise BASH-Scripts repository" end:"1681676155" entry:"1681454756" modified:"1681676158" status:"deleted" uuid:"6cbe7db8-2cd0-4a9d-b032-a65d7e099379"]
+---
+time 1681679896
+new [description:"Fix source issue on cd2p" entry:"1681679896" modified:"1681679896" status:"pending" uuid:"823b538e-31a7-4905-be4a-060e527a293d"]
+---
+time 1681679957
+new [description:"Install JDK" entry:"1681679957" modified:"1681679957" status:"pending" uuid:"c78a3b4b-1586-4cc3-9ec4-d71898c73c76"]
+---
+time 1681683990
+new [description:"create quick message app" entry:"1681683990" modified:"1681683990" status:"pending" uuid:"c71da2ee-bc16-4929-8037-477a95622dc6"]
+---
+time 1681684166
+new [description:"create multi archive tool" entry:"1681684166" modified:"1681684166" status:"pending" uuid:"251a6d8c-abf1-4fab-b023-dff09a1af5cb"]
+---
+time 1681686226
+new [description:"Create exit code reader" entry:"1681686226" modified:"1681686226" status:"pending" uuid:"26a2d0ce-87ad-4af8-89ee-8be85dc06b6b"]
+---
+time 1681686884
+new [description:"hook java to system" entry:"1681686884" modified:"1681686884" status:"pending" uuid:"230c2e6a-96d4-4f2e-ab46-86d1374cd40a"]
+---
+time 1681695057
+new [description:"Add clause to cd2p for string that doesn't match" entry:"1681695057" modified:"1681695057" status:"pending" uuid:"535dbc42-930a-45c0-84da-51b8cf24e668"]
+---
+time 1681696839
+new [description:"Install arch linux on ext. drive" entry:"1681696839" modified:"1681696839" status:"pending" uuid:"acdef8fc-e57f-489b-b25b-a4889588fea4"]
+---
+time 1681699691
+new [description:"fix variable issue in cd2p asap" entry:"1681699691" modified:"1681699691" status:"pending" uuid:"d81e8047-b32e-48af-96b7-9a671fb9c04f"]
+---
+time 1681700374
+old [description:"hook java to system" entry:"1681686884" modified:"1681686884" status:"pending" uuid:"230c2e6a-96d4-4f2e-ab46-86d1374cd40a"]
+new [description:"hook java to system" end:"1681700370" entry:"1681686884" modified:"1681700374" status:"deleted" uuid:"230c2e6a-96d4-4f2e-ab46-86d1374cd40a"]
+---
+time 1681700476
+new [description:"implement: var arr = text.split(\/\\s+\/); in dictionary" entry:"1681700476" modified:"1681700476" status:"pending" uuid:"07558529-1729-4a1c-b293-bd51cf79e05b"]
+---
+time 1681700496
+new [description:"Test java" entry:"1681700496" modified:"1681700496" status:"pending" uuid:"712ee7a0-52d3-404c-87eb-d6c9b6463ca5"]
+---
+time 1681743729
+new [description:"Write automation script for java compilation" entry:"1681743729" modified:"1681743729" status:"pending" uuid:"cbf5e1d0-200f-4198-ac54-6d1e3880b13c"]
+---
+time 1681833259
+new [description:"add code for wrong arg1 given in javarun" entry:"1681833259" modified:"1681833259" status:"pending" uuid:"c60b54dd-5628-4863-896b-938784b9b48f"]
+---
+time 1681833280
+old [description:"Install JDK" entry:"1681679957" modified:"1681679957" status:"pending" uuid:"c78a3b4b-1586-4cc3-9ec4-d71898c73c76"]
+new [description:"Install JDK" end:"1681833277" entry:"1681679957" modified:"1681833280" status:"deleted" uuid:"c78a3b4b-1586-4cc3-9ec4-d71898c73c76"]
+---
+time 1681944412
+old [description:"Fix source issue on cd2p" entry:"1681679896" modified:"1681679896" status:"pending" uuid:"823b538e-31a7-4905-be4a-060e527a293d"]
+new [description:"Fix source issue on cd2p" end:"1681944410" entry:"1681679896" modified:"1681944412" status:"deleted" uuid:"823b538e-31a7-4905-be4a-060e527a293d"]
+---
+time 1681944458
+old [description:"fix variable issue in cd2p asap" entry:"1681699691" modified:"1681699691" status:"pending" uuid:"d81e8047-b32e-48af-96b7-9a671fb9c04f"]
+new [description:"fix variable issue in cd2p asap" end:"1681944456" entry:"1681699691" modified:"1681944458" status:"deleted" uuid:"d81e8047-b32e-48af-96b7-9a671fb9c04f"]
+---
+time 1681944481
+old [description:"Test java" entry:"1681700496" modified:"1681700496" status:"pending" uuid:"712ee7a0-52d3-404c-87eb-d6c9b6463ca5"]
+new [description:"Test java" end:"1681944479" entry:"1681700496" modified:"1681944481" status:"deleted" uuid:"712ee7a0-52d3-404c-87eb-d6c9b6463ca5"]
+---
+time 1681944508
+old [description:"Write automation script for java compilation" entry:"1681743729" modified:"1681743729" status:"pending" uuid:"cbf5e1d0-200f-4198-ac54-6d1e3880b13c"]
+new [description:"Write automation script for java compilation" end:"1681944506" entry:"1681743729" modified:"1681944508" status:"deleted" uuid:"cbf5e1d0-200f-4198-ac54-6d1e3880b13c"]
+---
+time 1682134189
+new [description:"Check out password manager" entry:"1682134189" modified:"1682134189" status:"pending" uuid:"f25aa23c-b1b6-4e03-82c9-afb1640846a5"]
+---
+time 1682141724
+new [description:"Look at integratin p10k into xconf directly or as default" entry:"1682141724" modified:"1682141724" status:"pending" uuid:"227bea3e-68d1-4cff-bc34-d8c1abe19edc"]
+---
+time 1682141742
+new [description:"finish porting plugins" entry:"1682141742" modified:"1682141742" status:"pending" uuid:"f560bb10-dda9-4cb8-a26b-460d1dbfa33d"]
+---
+time 1682186008
+new [description:"Remove all zsh plugins not being used after porting" entry:"1682186008" modified:"1682186008" status:"pending" uuid:"291915c7-14df-490d-b937-258d04348170"]
+---
+time 1682260748
+new [description:"Write code 2 put xfiles where the user wants" entry:"1682260748" modified:"1682260748" status:"pending" uuid:"217c80b8-1dd9-4292-8cbb-f370251b59bd"]
+---
+time 1682261313
+new [description:"write code for failed to load plugins so there are no bad looking errors on the terminal" entry:"1682261313" modified:"1682261313" status:"pending" uuid:"1a13d6ab-6a63-4dbd-b6e8-a78ea0265002"]
+---
+time 1682261841
+new [description:"Change '.plug' files to '._xplug' files" entry:"1682261841" modified:"1682261841" status:"pending" uuid:"927004b2-6592-4da3-bc09-f71ca980cafa"]
+---
+time 1682371609
+new [description:"write neofetch specific aliases" entry:"1682371609" modified:"1682371609" status:"pending" uuid:"5eae795d-e02e-438f-8558-e7770a72d9d2"]
+---
+time 1682532805
+new [description:"write credential storage system" entry:"1682532805" modified:"1682532805" status:"pending" uuid:"6b17ba30-6565-44a0-9858-a0d13d972cdc"]
+---
+time 1682532838
+new [description:"write 255 color aliases or func" entry:"1682532838" modified:"1682532838" status:"pending" uuid:"43bdb66b-890e-4c3f-8d9b-c72501d2f5fb"]
+---
+time 1682573594
+new [description:"write function to read plugin readme.md files" entry:"1682573594" modified:"1682573594" status:"pending" uuid:"13345b6e-769d-48b5-aa01-475bdac3a534"]
+---
+time 1682732191
+new [description:"Create jam for basic routing concepts vid diagram in Routing" entry:"1682732191" modified:"1682732191" status:"pending" uuid:"5721231e-f2ff-45d6-9f93-af48e5af11fa"]
+---
+time 1682751709
+new [description:"remove etcher when done" entry:"1682751709" modified:"1682751709" status:"pending" uuid:"6ee32b30-7bc0-44d0-aa97-e234a93881b0"]
+---
+time 1682751724
+new [description:"remove gparted\/parted when done" entry:"1682751724" modified:"1682751724" status:"pending" uuid:"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"]
+---

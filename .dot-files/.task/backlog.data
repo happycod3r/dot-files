@@ -48,3 +48,20 @@
 {"description":"Create jam for basic routing concepts vid diagram in Routing","entry":"20230429T013631Z","modified":"20230429T013631Z","status":"pending","uuid":"5721231e-f2ff-45d6-9f93-af48e5af11fa"}
 {"description":"remove etcher when done","entry":"20230429T070149Z","modified":"20230429T070149Z","status":"pending","uuid":"6ee32b30-7bc0-44d0-aa97-e234a93881b0"}
 {"description":"remove gparted\/parted when done","entry":"20230429T070204Z","modified":"20230429T070204Z","status":"pending","uuid":"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"}
+{"description":"Change '.plug' files to '._xplug' files","end":"20230523T011029Z","entry":"20230423T145721Z","modified":"20230523T011031Z","status":"deleted","uuid":"927004b2-6592-4da3-bc09-f71ca980cafa"}
+{"description":"remove etcher when done","end":"20230523T011108Z","entry":"20230429T070149Z","modified":"20230523T011111Z","status":"deleted","uuid":"6ee32b30-7bc0-44d0-aa97-e234a93881b0"}
+{"description":"remove gparted\/parted when done","end":"20230523T011142Z","entry":"20230429T070204Z","modified":"20230523T011144Z","status":"deleted","uuid":"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"}
+{"description":"finish porting plugins","end":"20230523T011406Z","entry":"20230422T053542Z","modified":"20230523T011409Z","status":"deleted","uuid":"f560bb10-dda9-4cb8-a26b-460d1dbfa33d"}
+{"description":"Write code 2 put xfiles where the user wants","end":"20230523T011433Z","entry":"20230423T143908Z","modified":"20230523T011437Z","status":"deleted","uuid":"217c80b8-1dd9-4292-8cbb-f370251b59bd"}
+{"description":"write neofetch specific aliases","end":"20230523T011502Z","entry":"20230424T212649Z","modified":"20230523T011504Z","status":"deleted","uuid":"5eae795d-e02e-438f-8558-e7770a72d9d2"}
+{"description":"Look at integratin p10k into xconf directly or as default","end":"20230523T011533Z","entry":"20230422T053524Z","modified":"20230523T011535Z","status":"deleted","uuid":"227bea3e-68d1-4cff-bc34-d8c1abe19edc"}
+{"description":"add code for wrong arg1 given in javarun","end":"20230523T011552Z","entry":"20230418T155419Z","modified":"20230523T011606Z","status":"deleted","uuid":"c60b54dd-5628-4863-896b-938784b9b48f"}
+{"description":"Install arch linux on ext. drive","end":"20230523T011632Z","entry":"20230417T020039Z","modified":"20230523T011634Z","status":"deleted","uuid":"acdef8fc-e57f-489b-b25b-a4889588fea4"}
+{"description":"write function to read plugin readme.md files","end":"20230523T011748Z","entry":"20230427T053314Z","modified":"20230523T011750Z","status":"deleted","uuid":"13345b6e-769d-48b5-aa01-475bdac3a534"}
+{"description":"Create exit code reader","end":"20230523T011828Z","entry":"20230416T230346Z","modified":"20230523T011831Z","status":"deleted","uuid":"26a2d0ce-87ad-4af8-89ee-8be85dc06b6b"}
+{"description":"Get schoolwork done","end":"20230523T011940Z","entry":"20230414T162135Z","modified":"20230523T011942Z","status":"deleted","uuid":"da993908-3452-42e0-a1a3-6696dd0e239e"}
+{"description":"Add clause to cd2p for string that doesn't match","end":"20230523T012002Z","entry":"20230417T013057Z","modified":"20230523T012022Z","status":"deleted","uuid":"535dbc42-930a-45c0-84da-51b8cf24e668"}
+{"description":"write code for failed to load plugins so there are no bad looking errors on the terminal","end":"20230523T012042Z","entry":"20230423T144833Z","modified":"20230523T012045Z","status":"deleted","uuid":"1a13d6ab-6a63-4dbd-b6e8-a78ea0265002"}
+{"description":"create multi archive tool","end":"20230523T012219Z","entry":"20230416T222926Z","modified":"20230523T012220Z","status":"deleted","uuid":"251a6d8c-abf1-4fab-b023-dff09a1af5cb"}
+{"description":"Create jam for basic routing concepts vid diagram in Routing","end":"20230523T012258Z","entry":"20230429T013631Z","modified":"20230523T012300Z","status":"deleted","uuid":"5721231e-f2ff-45d6-9f93-af48e5af11fa"}
+{"description":"Remove all zsh plugins not being used after porting","end":"20230523T012343Z","entry":"20230422T175328Z","modified":"20230523T012344Z","status":"deleted","uuid":"291915c7-14df-490d-b937-258d04348170"}

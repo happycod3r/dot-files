@@ -161,3 +161,71 @@ new [description:"remove etcher when done" entry:"1682751709" modified:"16827517
 time 1682751724
 new [description:"remove gparted\/parted when done" entry:"1682751724" modified:"1682751724" status:"pending" uuid:"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"]
 ---
+time 1684804231
+old [description:"Change '.plug' files to '._xplug' files" entry:"1682261841" modified:"1682261841" status:"pending" uuid:"927004b2-6592-4da3-bc09-f71ca980cafa"]
+new [description:"Change '.plug' files to '._xplug' files" end:"1684804229" entry:"1682261841" modified:"1684804231" status:"deleted" uuid:"927004b2-6592-4da3-bc09-f71ca980cafa"]
+---
+time 1684804271
+old [description:"remove etcher when done" entry:"1682751709" modified:"1682751709" status:"pending" uuid:"6ee32b30-7bc0-44d0-aa97-e234a93881b0"]
+new [description:"remove etcher when done" end:"1684804268" entry:"1682751709" modified:"1684804271" status:"deleted" uuid:"6ee32b30-7bc0-44d0-aa97-e234a93881b0"]
+---
+time 1684804304
+old [description:"remove gparted\/parted when done" entry:"1682751724" modified:"1682751724" status:"pending" uuid:"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"]
+new [description:"remove gparted\/parted when done" end:"1684804302" entry:"1682751724" modified:"1684804304" status:"deleted" uuid:"9b9b3224-2d87-461f-82ac-c4d1ab6a5b74"]
+---
+time 1684804449
+old [description:"finish porting plugins" entry:"1682141742" modified:"1682141742" status:"pending" uuid:"f560bb10-dda9-4cb8-a26b-460d1dbfa33d"]
+new [description:"finish porting plugins" end:"1684804446" entry:"1682141742" modified:"1684804449" status:"deleted" uuid:"f560bb10-dda9-4cb8-a26b-460d1dbfa33d"]
+---
+time 1684804477
+old [description:"Write code 2 put xfiles where the user wants" entry:"1682260748" modified:"1682260748" status:"pending" uuid:"217c80b8-1dd9-4292-8cbb-f370251b59bd"]
+new [description:"Write code 2 put xfiles where the user wants" end:"1684804473" entry:"1682260748" modified:"1684804477" status:"deleted" uuid:"217c80b8-1dd9-4292-8cbb-f370251b59bd"]
+---
+time 1684804504
+old [description:"write neofetch specific aliases" entry:"1682371609" modified:"1682371609" status:"pending" uuid:"5eae795d-e02e-438f-8558-e7770a72d9d2"]
+new [description:"write neofetch specific aliases" end:"1684804502" entry:"1682371609" modified:"1684804504" status:"deleted" uuid:"5eae795d-e02e-438f-8558-e7770a72d9d2"]
+---
+time 1684804535
+old [description:"Look at integratin p10k into xconf directly or as default" entry:"1682141724" modified:"1682141724" status:"pending" uuid:"227bea3e-68d1-4cff-bc34-d8c1abe19edc"]
+new [description:"Look at integratin p10k into xconf directly or as default" end:"1684804533" entry:"1682141724" modified:"1684804535" status:"deleted" uuid:"227bea3e-68d1-4cff-bc34-d8c1abe19edc"]
+---
+time 1684804566
+old [description:"add code for wrong arg1 given in javarun" entry:"1681833259" modified:"1681833259" status:"pending" uuid:"c60b54dd-5628-4863-896b-938784b9b48f"]
+new [description:"add code for wrong arg1 given in javarun" end:"1684804552" entry:"1681833259" modified:"1684804566" status:"deleted" uuid:"c60b54dd-5628-4863-896b-938784b9b48f"]
+---
+time 1684804594
+old [description:"Install arch linux on ext. drive" entry:"1681696839" modified:"1681696839" status:"pending" uuid:"acdef8fc-e57f-489b-b25b-a4889588fea4"]
+new [description:"Install arch linux on ext. drive" end:"1684804592" entry:"1681696839" modified:"1684804594" status:"deleted" uuid:"acdef8fc-e57f-489b-b25b-a4889588fea4"]
+---
+time 1684804670
+old [description:"write function to read plugin readme.md files" entry:"1682573594" modified:"1682573594" status:"pending" uuid:"13345b6e-769d-48b5-aa01-475bdac3a534"]
+new [description:"write function to read plugin readme.md files" end:"1684804668" entry:"1682573594" modified:"1684804670" status:"deleted" uuid:"13345b6e-769d-48b5-aa01-475bdac3a534"]
+---
+time 1684804711
+old [description:"Create exit code reader" entry:"1681686226" modified:"1681686226" status:"pending" uuid:"26a2d0ce-87ad-4af8-89ee-8be85dc06b6b"]
+new [description:"Create exit code reader" end:"1684804708" entry:"1681686226" modified:"1684804711" status:"deleted" uuid:"26a2d0ce-87ad-4af8-89ee-8be85dc06b6b"]
+---
+time 1684804782
+old [description:"Get schoolwork done" entry:"1681489295" modified:"1681489295" status:"pending" uuid:"da993908-3452-42e0-a1a3-6696dd0e239e"]
+new [description:"Get schoolwork done" end:"1684804780" entry:"1681489295" modified:"1684804782" status:"deleted" uuid:"da993908-3452-42e0-a1a3-6696dd0e239e"]
+---
+time 1684804822
+old [description:"Add clause to cd2p for string that doesn't match" entry:"1681695057" modified:"1681695057" status:"pending" uuid:"535dbc42-930a-45c0-84da-51b8cf24e668"]
+new [description:"Add clause to cd2p for string that doesn't match" end:"1684804802" entry:"1681695057" modified:"1684804822" status:"deleted" uuid:"535dbc42-930a-45c0-84da-51b8cf24e668"]
+---
+time 1684804845
+old [description:"write code for failed to load plugins so there are no bad looking errors on the terminal" entry:"1682261313" modified:"1682261313" status:"pending" uuid:"1a13d6ab-6a63-4dbd-b6e8-a78ea0265002"]
+new [description:"write code for failed to load plugins so there are no bad looking errors on the terminal" end:"1684804842" entry:"1682261313" modified:"1684804845" status:"deleted" uuid:"1a13d6ab-6a63-4dbd-b6e8-a78ea0265002"]
+---
+time 1684804940
+old [description:"create multi archive tool" entry:"1681684166" modified:"1681684166" status:"pending" uuid:"251a6d8c-abf1-4fab-b023-dff09a1af5cb"]
+new [description:"create multi archive tool" end:"1684804939" entry:"1681684166" modified:"1684804940" status:"deleted" uuid:"251a6d8c-abf1-4fab-b023-dff09a1af5cb"]
+---
+time 1684804980
+old [description:"Create jam for basic routing concepts vid diagram in Routing" entry:"1682732191" modified:"1682732191" status:"pending" uuid:"5721231e-f2ff-45d6-9f93-af48e5af11fa"]
+new [description:"Create jam for basic routing concepts vid diagram in Routing" end:"1684804978" entry:"1682732191" modified:"1684804980" status:"deleted" uuid:"5721231e-f2ff-45d6-9f93-af48e5af11fa"]
+---
+time 1684805024
+old [description:"Remove all zsh plugins not being used after porting" entry:"1682186008" modified:"1682186008" status:"pending" uuid:"291915c7-14df-490d-b937-258d04348170"]
+new [description:"Remove all zsh plugins not being used after porting" end:"1684805023" entry:"1682186008" modified:"1684805024" status:"deleted" uuid:"291915c7-14df-490d-b937-258d04348170"]
+---

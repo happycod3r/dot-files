@@ -229,3 +229,12 @@ time 1684805024
 old [description:"Remove all zsh plugins not being used after porting" entry:"1682186008" modified:"1682186008" status:"pending" uuid:"291915c7-14df-490d-b937-258d04348170"]
 new [description:"Remove all zsh plugins not being used after porting" end:"1684805023" entry:"1682186008" modified:"1684805024" status:"deleted" uuid:"291915c7-14df-490d-b937-258d04348170"]
 ---
+time 1685079172
+new [description:"create todo app" entry:"1685079172" modified:"1685079172" status:"pending" uuid:"93ede8a1-70f9-4db5-a0b1-76d91338fec2"]
+---
+time 1685079230
+new [description:"create file ext reference" entry:"1685079230" modified:"1685079230" status:"pending" uuid:"9c2e27b9-0173-412e-91de-a17804b672fe"]
+---
+time 1685406427
+new [description:"make documentation script" entry:"1685406427" modified:"1685406427" status:"pending" uuid:"d32202b0-bc4f-4898-9ddb-6adba266c4a5"]
+---

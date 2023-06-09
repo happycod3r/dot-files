@@ -5,3 +5,6 @@
 [description:"Check out password manager" entry:"1682134189" modified:"1682134189" status:"pending" uuid:"f25aa23c-b1b6-4e03-82c9-afb1640846a5"]
 [description:"write credential storage system" entry:"1682532805" modified:"1682532805" status:"pending" uuid:"6b17ba30-6565-44a0-9858-a0d13d972cdc"]
 [description:"write 255 color aliases or func" entry:"1682532838" modified:"1682532838" status:"pending" uuid:"43bdb66b-890e-4c3f-8d9b-c72501d2f5fb"]
+[description:"create todo app" entry:"1685079172" modified:"1685079172" status:"pending" uuid:"93ede8a1-70f9-4db5-a0b1-76d91338fec2"]
+[description:"create file ext reference" entry:"1685079230" modified:"1685079230" status:"pending" uuid:"9c2e27b9-0173-412e-91de-a17804b672fe"]
+[description:"make documentation script" entry:"1685406427" modified:"1685406427" status:"pending" uuid:"d32202b0-bc4f-4898-9ddb-6adba266c4a5"]

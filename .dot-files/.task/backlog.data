@@ -65,3 +65,6 @@
 {"description":"create multi archive tool","end":"20230523T012219Z","entry":"20230416T222926Z","modified":"20230523T012220Z","status":"deleted","uuid":"251a6d8c-abf1-4fab-b023-dff09a1af5cb"}
 {"description":"Create jam for basic routing concepts vid diagram in Routing","end":"20230523T012258Z","entry":"20230429T013631Z","modified":"20230523T012300Z","status":"deleted","uuid":"5721231e-f2ff-45d6-9f93-af48e5af11fa"}
 {"description":"Remove all zsh plugins not being used after porting","end":"20230523T012343Z","entry":"20230422T175328Z","modified":"20230523T012344Z","status":"deleted","uuid":"291915c7-14df-490d-b937-258d04348170"}
+{"description":"create todo app","entry":"20230526T053252Z","modified":"20230526T053252Z","status":"pending","uuid":"93ede8a1-70f9-4db5-a0b1-76d91338fec2"}
+{"description":"create file ext reference","entry":"20230526T053350Z","modified":"20230526T053350Z","status":"pending","uuid":"9c2e27b9-0173-412e-91de-a17804b672fe"}
+{"description":"make documentation script","entry":"20230530T002707Z","modified":"20230530T002707Z","status":"pending","uuid":"d32202b0-bc4f-4898-9ddb-6adba266c4a5"}

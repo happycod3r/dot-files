@@ -6,7 +6,7 @@ fi
 source $HOME/.xeta/xenv/startup.zsh
 
 export XETA="$HOME/.xeta"
-export GT="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"
+export GT="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"
 
 XTHEME="powerlevel10k/powerlevel10k"
 

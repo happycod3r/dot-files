@@ -3,14 +3,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
     source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source $HOME/.xeta/xenv/startup.zsh
-
 export XETA="$HOME/.xeta"
-export GT="Z2hwXzduM3M3ck54ZVViMFF0bm1BZkllUHZaODdldEJ2WjJhOXFlQg=="
 
-XTHEME="powerlevel10k/powerlevel10k"
-
-COMPLETION_WAITING_DOTS="%F{cyan}.....%f" #=true for default. 
+[[ -f $XETA/xenv/startup.zsh ]] && source $XETA/xenv/startup.zsh
 
 if [[ -z "$LANG" ]]; then
     eval "$(locale)"
@@ -22,6 +17,6 @@ else
     export EDITOR='nano'
 fi
 
-source $HOME/.xeta/.xeta
+[[ -f $XETA/.xeta ]] && source $XETA/.xeta
 
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+

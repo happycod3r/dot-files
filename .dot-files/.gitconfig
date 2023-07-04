@@ -1,3 +1,5 @@
 [user]
 	email = happy2code0101@gmail.com
 	name = happycod3r
+[credential]
+	helper = store --file ~/.xeta/xenv/.config/.git-credentials.conf
